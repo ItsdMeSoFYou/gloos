@@ -51,10 +51,8 @@
   border-style: none;
   text-transform: uppercase;
   background-image: none;
-  font-family: "Fjalla One";
-  font-weight: 400;
   margin: 20px auto 0 0;
-  padding: 10px 52px 10px 50px;
+  padding: 10px 30px 10px 29px;
 }
 
 @media (max-width: 1199px) {
@@ -92,6 +90,11 @@
 
   .u-section-1 .u-text-2 {
     margin-right: 480px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    font-weight: normal;
+    font-family: Raleway, sans-serif;
   }
 }
 
@@ -210,8 +213,6 @@
 }
 
 .u-section-2 .u-text-1 {
-  font-weight: 400;
-  font-family: "Space Mono";
   margin: 31px calc(((100% - 1140px) / 2) + 894px) 0 calc(((100% - 1140px) / 2));
 }
 
@@ -246,6 +247,8 @@
 
 @media (max-width: 1199px) {
   .u-section-2 .u-text-1 {
+    font-weight: normal;
+    font-family: Raleway, sans-serif;
     margin-right: calc(((100% - 1140px) / 2) + 794px);
     margin-left: calc(((100% - 1140px) / 2) + 100px);
   }
@@ -311,8 +314,6 @@
 }
 
 .u-section-3 .u-text-1 {
-  font-family: "Space Mono";
-  font-weight: 700;
   margin: 25px 1003px 0 0;
 }
 
@@ -324,6 +325,8 @@
 @media (max-width: 1199px) {
   .u-section-3 .u-text-1 {
     margin-right: 803px;
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
   }
 }
 
