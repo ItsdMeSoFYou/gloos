@@ -32448,6 +32448,10 @@ a.u-link.u-text-hover-grey-90:hover {
   font-family: "Space Mono";
   margin: -44px 903px 60px 74px;
 }
+
+.u-header .u-btn-1 {
+  padding: 0;
+}
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
     min-height: 106px;
