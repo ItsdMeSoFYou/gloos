@@ -22,7 +22,7 @@
 }
 
 .u-section-1 .u-image-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/FarAway.jpg");
+  background-image: url("images/FarAway.jpg");
   background-position: 50% 50%;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .u-section-1 .u-image-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/IMG_20210106_115717_9391.jpg");
+  background-image: url("images/IMG_20210106_115717_9391.jpg");
   background-position: 50% 50%;
 }
 
