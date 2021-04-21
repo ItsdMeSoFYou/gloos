@@ -227,7 +227,6 @@
   min-height: 370px;
   grid-template-rows: auto;
   width: 370px;
-  height: auto;
   margin: 40px auto 0 calc(((100% - 1140px) / 2) + 383px);
 }
 
@@ -268,6 +267,7 @@
   }
 
   .u-section-2 .u-list-1 {
+    height: auto;
     width: 368px;
     margin-top: 34px;
     margin-left: auto;
