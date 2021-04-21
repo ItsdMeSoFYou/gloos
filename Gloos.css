@@ -439,14 +439,19 @@
   }
 
   .u-section-3 .u-list-1 {
-    margin-bottom: 40px;
-    min-height: 466px;
+    margin-bottom: 34px;
+    min-height: 472px;
     height: auto;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px);
-    grid-auto-rows: calc(75% - 0px);
+    grid-auto-columns: calc(25% - 15px);
+    grid-template-columns: calc(25% - 15px) calc(25% - 15px) calc(25% - 15px) calc(25% - 15px);
+    grid-gap: 20px 20px;
+    grid-auto-rows: calc(50% - 10px);
   }
 }
 
@@ -461,13 +466,18 @@
   }
 
   .u-section-3 .u-list-1 {
-    min-height: 436px;
-    width: 720px;
+    min-height: 349px;
+    margin-bottom: 60px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-auto-columns: calc(25% - 7.5px);
-    grid-auto-rows: calc(66.66% - 3.33333px);
+    grid-auto-columns: calc(25% - 22.5px);
+    grid-template-columns: calc(25% - 22.5px) calc(25% - 22.5px) calc(25% - 22.5px) calc(25% - 22.5px);
+    grid-gap: 30px 30px;
+    grid-auto-rows: calc(50% - 15px);
   }
 }
 
@@ -481,12 +491,17 @@
   }
 
   .u-section-3 .u-list-1 {
-    min-height: 364px;
-    width: 540px;
+    min-height: 270px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-auto-rows: calc(33.33% - 6.66667px);
+    grid-auto-columns: calc(25% - 15px);
+    grid-template-columns: calc(25% - 15px) calc(25% - 15px) calc(25% - 15px) calc(25% - 15px);
+    grid-gap: 20px 20px;
+    grid-auto-rows: calc(50% - 10px);
   }
 }
 
@@ -500,12 +515,15 @@
   }
 
   .u-section-3 .u-list-1 {
-    min-height: 477px;
-    width: 340px;
+    min-height: 340px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-auto-columns: calc(33.3333% - 6.66667px);
-    grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+    grid-auto-columns: calc(33.3333% - 13.3333px);
+    grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
+    grid-auto-rows: calc(37.5% - 12.5px);
   }
 }
