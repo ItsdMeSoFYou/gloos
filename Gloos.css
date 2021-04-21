@@ -226,7 +226,8 @@
 .u-section-2 .u-list-1 {
   min-height: 370px;
   grid-template-rows: auto;
-  width: 374px;
+  width: 370px;
+  height: auto;
   margin: 40px auto 0 calc(((100% - 1140px) / 2) + 383px);
 }
 
@@ -238,7 +239,7 @@
 }
 
 .u-section-2 .u-image-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/Far_Away1.webp");
+  background-image: url("images/Far_Away1.webp");
   background-position: 50% 50%;
 }
 
@@ -267,7 +268,6 @@
   }
 
   .u-section-2 .u-list-1 {
-    height: auto;
     width: 368px;
     margin-top: 34px;
     margin-left: auto;
