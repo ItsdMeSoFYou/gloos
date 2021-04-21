@@ -9,22 +9,27 @@
 
 <url>
   <loc>https://gloos-music.com/</loc>
-  <lastmod>2021-04-09T09:28:59+00:00</lastmod>
+  <lastmod>2021-04-21T09:10:24+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://gloos-music.com/Far-Away</loc>
-  <lastmod>2021-04-09T09:28:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://gloos-music.com/stores</loc>
-  <lastmod>2021-04-09T09:28:59+00:00</lastmod>
+  <lastmod>2021-04-21T09:10:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://gloos-music.com/Gloos.html</loc>
-  <lastmod>2021-04-09T09:28:59+00:00</lastmod>
+  <lastmod>2021-04-21T09:10:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gloos-music.com/Biography</loc>
+  <lastmod>2021-04-21T09:10:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gloos-music.com/Link-in-Bio</loc>
+  <lastmod>2021-04-21T09:10:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
