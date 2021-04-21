@@ -1,5 +1,5 @@
 .u-section-1 {
-  background-image: url("images/DSC_0064-2blacked.png");
+  background-image: url("images/main1.webp");
   background-position: 50% 50%;
   min-height: 831px;
 }
@@ -244,7 +244,7 @@
 }
 
 .u-section-2 .u-image-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/FarAway.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/Far_Away1.webp");
   background-position: 50% 50%;
 }
 
@@ -344,21 +344,22 @@
 }
 
 .u-section-3 .u-list-1 {
-  margin-top: 40px;
-  margin-bottom: 60px;
-  min-height: 540px;
+  min-height: 450px;
   grid-template-rows: auto;
+  width: 900px;
+  margin: 40px auto 60px;
 }
 
 .u-section-3 .u-repeater-1 {
-  grid-auto-columns: calc(25% - 7.5px);
-  grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px);
-  grid-gap: 10px 10px;
-  grid-auto-rows: calc(50% - 5px);
+  grid-auto-columns: calc(25% - 30px);
+  grid-template-columns: calc(25% - 30px) calc(25% - 30px) calc(25% - 30px) calc(25% - 30px);
+  grid-gap: 40px 40px;
+  grid-auto-rows: calc(50% - 20px);
 }
 
 .u-section-3 .u-image-1 {
-  background-image: url("images/Spotify1000.png");
+  background-image: url("images/spotify.webp");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -366,7 +367,8 @@
 }
 
 .u-section-3 .u-image-2 {
-  background-image: url("images/apple1000.png");
+  background-image: url("images/apple.webp");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -374,7 +376,8 @@
 }
 
 .u-section-3 .u-image-3 {
-  background-image: url("images/youtube1000.png");
+  background-image: url("images/youtube.webp");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-container-layout-3 {
@@ -382,7 +385,8 @@
 }
 
 .u-section-3 .u-image-4 {
-  background-image: url("images/deezer1000.png");
+  background-image: url("images/deezer.webp");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-container-layout-4 {
@@ -390,7 +394,8 @@
 }
 
 .u-section-3 .u-image-5 {
-  background-image: url("images/soundcloud1000.png");
+  background-image: url("images/soundcloud.webp");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-container-layout-5 {
@@ -398,7 +403,8 @@
 }
 
 .u-section-3 .u-image-6 {
-  background-image: url("images/pandora1000.png");
+  background-image: url("images/pandora.webp");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-container-layout-6 {
@@ -406,7 +412,8 @@
 }
 
 .u-section-3 .u-image-7 {
-  background-image: url("images/amazon1000.png");
+  background-image: url("images/amazon.webp");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-container-layout-7 {
@@ -414,7 +421,8 @@
 }
 
 .u-section-3 .u-image-8 {
-  background-image: url("images/qqmusic1000.png");
+  background-image: url("images/tencent.webp");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-container-layout-8 {
@@ -437,39 +445,8 @@
   }
 
   .u-section-3 .u-repeater-1 {
+    grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px);
     grid-auto-rows: calc(75% - 0px);
-  }
-
-  .u-section-3 .u-image-1 {
-    background-position: 50% 50%;
-  }
-
-  .u-section-3 .u-image-2 {
-    background-position: 50% 50%;
-  }
-
-  .u-section-3 .u-image-3 {
-    background-position: 50% 50%;
-  }
-
-  .u-section-3 .u-image-4 {
-    background-position: 50% 50%;
-  }
-
-  .u-section-3 .u-image-5 {
-    background-position: 50% 50%;
-  }
-
-  .u-section-3 .u-image-6 {
-    background-position: 50% 50%;
-  }
-
-  .u-section-3 .u-image-7 {
-    background-position: 50% 50%;
-  }
-
-  .u-section-3 .u-image-8 {
-    background-position: 50% 50%;
   }
 }
 
@@ -485,9 +462,11 @@
 
   .u-section-3 .u-list-1 {
     min-height: 436px;
+    width: 720px;
   }
 
   .u-section-3 .u-repeater-1 {
+    grid-auto-columns: calc(25% - 7.5px);
     grid-auto-rows: calc(66.66% - 3.33333px);
   }
 }
@@ -503,6 +482,7 @@
 
   .u-section-3 .u-list-1 {
     min-height: 364px;
+    width: 540px;
   }
 
   .u-section-3 .u-repeater-1 {
@@ -521,6 +501,7 @@
 
   .u-section-3 .u-list-1 {
     min-height: 477px;
+    width: 340px;
   }
 
   .u-section-3 .u-repeater-1 {
