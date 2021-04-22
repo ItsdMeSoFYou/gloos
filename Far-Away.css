@@ -135,7 +135,6 @@
   min-height: 665px;
   grid-template-rows: auto;
   width: 665px;
-  height: auto;
   margin: 40px auto 60px;
 }
 
@@ -235,6 +234,10 @@
   .u-section-2 .u-text-1 {
     width: auto;
     margin-right: 834px;
+  }
+
+  .u-section-2 .u-list-1 {
+    height: auto;
   }
 
   .u-section-2 .u-repeater-1 {
