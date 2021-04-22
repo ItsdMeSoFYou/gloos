@@ -124,7 +124,7 @@
     height: 320px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 703px;
+  min-height: 874px;
 }
 
 .u-section-2 .u-text-1 {
@@ -132,17 +132,18 @@
 }
 
 .u-section-2 .u-list-1 {
-  min-height: 450px;
+  min-height: 665px;
   grid-template-rows: auto;
-  width: 900px;
-  margin: 40px auto 60px 106px;
+  width: 665px;
+  height: auto;
+  margin: 40px auto 60px;
 }
 
 .u-section-2 .u-repeater-1 {
-  grid-auto-columns: calc(25% - 30px);
-  grid-template-columns: calc(25% - 30px) calc(25% - 30px) calc(25% - 30px) calc(25% - 30px);
+  grid-auto-columns: calc(33.3333% - 26.6667px);
+  grid-template-columns: calc(33.3333% - 26.6667px) calc(33.3333% - 26.6667px) calc(33.3333% - 26.6667px);
   grid-gap: 40px 40px;
-  grid-auto-rows: calc(50% - 20px);
+  grid-auto-rows: calc(33.33% - 26.6667px);
 }
 
 .u-section-2 .u-image-1 {
@@ -209,11 +210,20 @@
 }
 
 .u-section-2 .u-image-8 {
-  background-image: url("images/tencent.webp");
+  background-image: url("images/yandex.webp");
   background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-8 {
+  padding: 30px;
+}
+
+.u-section-2 .u-image-9 {
+  background-image: url("images/tencent.webp");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-container-layout-9 {
   padding: 30px;
 }
 
@@ -227,14 +237,9 @@
     margin-right: 834px;
   }
 
-  .u-section-2 .u-list-1 {
-    height: auto;
-    margin-left: 40px;
-  }
-
   .u-section-2 .u-repeater-1 {
-    grid-auto-columns: calc(25% - 15px);
-    grid-template-columns: calc(25% - 15px) calc(25% - 15px) calc(25% - 15px) calc(25% - 15px);
+    grid-auto-columns: calc(33.3333% - 13.3333px);
+    grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
     grid-gap: 20px 20px;
     grid-auto-rows: calc(50% - 10px);
   }
@@ -250,7 +255,7 @@
   }
 
   .u-section-2 .u-list-1 {
-    min-height: 360px;
+    min-height: 720px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -274,8 +279,6 @@
   }
 
   .u-section-2 .u-repeater-1 {
-    grid-auto-columns: calc(33.3333% - 13.3333px);
-    grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
     grid-auto-rows: calc(33.33% - 6.66667px);
   }
 }

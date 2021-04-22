@@ -338,17 +338,17 @@
 }
 
 .u-section-3 .u-list-1 {
-  min-height: 450px;
+  min-height: 665px;
   grid-template-rows: auto;
-  width: 900px;
+  width: 665px;
   margin: 40px auto 60px;
 }
 
 .u-section-3 .u-repeater-1 {
-  grid-auto-columns: calc(25% - 30px);
-  grid-template-columns: calc(25% - 30px) calc(25% - 30px) calc(25% - 30px) calc(25% - 30px);
+  grid-auto-columns: calc(33.3333% - 26.6667px);
+  grid-template-columns: calc(33.3333% - 26.6667px) calc(33.3333% - 26.6667px) calc(33.3333% - 26.6667px);
   grid-gap: 40px 40px;
-  grid-auto-rows: calc(50% - 20px);
+  grid-auto-rows: calc(33.33% - 26.6667px);
 }
 
 .u-section-3 .u-image-1 {
@@ -415,11 +415,20 @@
 }
 
 .u-section-3 .u-image-8 {
-  background-image: url("images/tencent.webp");
+  background-image: url("images/yandex.webp");
   background-position: 50% 50%;
 }
 
 .u-section-3 .u-container-layout-8 {
+  padding: 30px;
+}
+
+.u-section-3 .u-image-9 {
+  background-image: url("images/tencent.webp");
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-container-layout-9 {
   padding: 30px;
 }
 
@@ -433,17 +442,13 @@
   }
 
   .u-section-3 .u-list-1 {
-    margin-bottom: 34px;
-    min-height: 472px;
     height: auto;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    margin-bottom: 34px;
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-auto-columns: calc(25% - 15px);
-    grid-template-columns: calc(25% - 15px) calc(25% - 15px) calc(25% - 15px) calc(25% - 15px);
+    grid-auto-columns: calc(33.3333% - 13.3333px);
+    grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
     grid-gap: 20px 20px;
     grid-auto-rows: calc(50% - 10px);
   }
@@ -460,16 +465,13 @@
   }
 
   .u-section-3 .u-list-1 {
-    min-height: 349px;
+    min-height: 720px;
     margin-bottom: 60px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-auto-columns: calc(25% - 22.5px);
-    grid-template-columns: calc(25% - 22.5px) calc(25% - 22.5px) calc(25% - 22.5px) calc(25% - 22.5px);
+    grid-auto-columns: calc(33.3333% - 20px);
+    grid-template-columns: calc(33.3333% - 20px) calc(33.3333% - 20px) calc(33.3333% - 20px);
     grid-gap: 30px 30px;
     grid-auto-rows: calc(50% - 15px);
   }
@@ -485,15 +487,13 @@
   }
 
   .u-section-3 .u-list-1 {
-    min-height: 270px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    min-height: 540px;
+    width: 540px;
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-auto-columns: calc(25% - 15px);
-    grid-template-columns: calc(25% - 15px) calc(25% - 15px) calc(25% - 15px) calc(25% - 15px);
+    grid-auto-columns: calc(33.3333% - 13.3333px);
+    grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
     grid-gap: 20px 20px;
     grid-auto-rows: calc(50% - 10px);
   }
@@ -510,14 +510,10 @@
 
   .u-section-3 .u-list-1 {
     min-height: 340px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 340px;
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-auto-columns: calc(33.3333% - 13.3333px);
-    grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
     grid-auto-rows: calc(37.5% - 12.5px);
   }
 }
