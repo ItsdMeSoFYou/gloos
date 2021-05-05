@@ -244,7 +244,7 @@
     grid-auto-columns: calc(33.3333% - 13.3333px);
     grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
     grid-gap: 20px 20px;
-    grid-auto-rows: calc(50% - 10px);
+    grid-auto-rows: calc(33.33% - 13.3333px);
   }
 }
 
@@ -279,10 +279,6 @@
     width: auto;
     margin-right: initial;
     margin-left: initial;
-  }
-
-  .u-section-2 .u-repeater-1 {
-    grid-auto-rows: calc(33.33% - 6.66667px);
   }
 }
 
