@@ -224,17 +224,15 @@
 }
 
 .u-section-2 .u-list-1 {
-  min-height: 370px;
   grid-template-rows: auto;
   width: 370px;
   margin: 40px auto 0 calc(((100% - 1140px) / 2) + 383px);
 }
 
 .u-section-2 .u-repeater-1 {
-  grid-auto-columns: 100%;
   grid-template-columns: 100%;
   grid-gap: 10px 10px;
-  grid-auto-rows: 100%;
+  min-height: 370px;
 }
 
 .u-section-2 .u-image-1 {
@@ -328,17 +326,15 @@
 }
 
 .u-section-3 .u-list-1 {
-  min-height: 665px;
   grid-template-rows: auto;
   width: 665px;
   margin: 40px auto 60px;
 }
 
 .u-section-3 .u-repeater-1 {
-  grid-auto-columns: calc(33.3333% - 26.6667px);
   grid-template-columns: calc(33.3333% - 26.6667px) calc(33.3333% - 26.6667px) calc(33.3333% - 26.6667px);
   grid-gap: 40px 40px;
-  grid-auto-rows: calc(33.33% - 26.6667px);
+  min-height: 665px;
 }
 
 .u-section-3 .u-image-1 {
@@ -437,10 +433,8 @@
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-auto-columns: calc(33.3333% - 13.3333px);
     grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
     grid-gap: 20px 20px;
-    grid-auto-rows: calc(33.33% - 13.3333px);
   }
 }
 
@@ -455,15 +449,12 @@
   }
 
   .u-section-3 .u-list-1 {
-    min-height: 720px;
     margin-bottom: 60px;
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-auto-columns: calc(33.3333% - 20px);
     grid-template-columns: calc(33.3333% - 20px) calc(33.3333% - 20px) calc(33.3333% - 20px);
     grid-gap: 30px 30px;
-    grid-auto-rows: calc(33.33% - 20px);
   }
 }
 
@@ -476,16 +467,9 @@
     margin-right: 434px;
   }
 
-  .u-section-3 .u-list-1 {
-    min-height: 540px;
-    width: 540px;
-  }
-
   .u-section-3 .u-repeater-1 {
-    grid-auto-columns: calc(33.3333% - 13.3333px);
     grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
     grid-gap: 20px 20px;
-    grid-auto-rows: calc(33.33% - 13.3333px);
   }
 }
 
@@ -496,10 +480,5 @@
 
   .u-section-3 .u-text-1 {
     margin-right: 234px;
-  }
-
-  .u-section-3 .u-list-1 {
-    min-height: 340px;
-    width: 340px;
   }
 }
