@@ -7,18 +7,16 @@
 }
 
 .u-section-1 .u-list-1 {
-  width: 780px;
-  min-height: 235px;
+  width: 507px;
   grid-template-rows: auto;
-  height: auto;
   margin: 40px auto 60px;
 }
 
 .u-section-1 .u-repeater-1 {
-  grid-auto-columns: calc(33.3333% - 26.6667px);
-  grid-template-columns: calc(33.3333% - 26.6667px) calc(33.3333% - 26.6667px) calc(33.3333% - 26.6667px);
+  grid-template-columns: calc(50% - 20px) calc(50% - 20px);
   grid-gap: 40px 40px;
-  grid-auto-rows: 100%;
+  min-height: 510px;
+  grid-auto-columns: calc(50% - 20px);
 }
 
 .u-section-1 .u-image-1 {
@@ -48,14 +46,23 @@
   padding: 30px;
 }
 
+.u-section-1 .u-image-4 {
+  background-image: url("images/OnmyMind.webp");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-4 {
+  padding: 30px;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
     margin-right: 770px;
   }
 
   .u-section-1 .u-list-1 {
-    width: 800px;
-    min-height: 240px;
+    width: 521px;
+    height: auto;
   }
 }
 
@@ -69,16 +76,16 @@
   }
 
   .u-section-1 .u-list-1 {
-    min-height: 220px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
   .u-section-1 .u-repeater-1 {
-    grid-auto-columns: calc(33.3333% - 20px);
-    grid-template-columns: calc(33.3333% - 20px) calc(33.3333% - 20px) calc(33.3333% - 20px);
+    grid-template-columns: calc(50% - 15px) calc(50% - 15px);
     grid-gap: 30px 30px;
+    min-height: 718px;
+    grid-auto-columns: calc(50% - 15px);
   }
 }
 
@@ -91,33 +98,24 @@
     margin-right: 370px;
   }
 
-  .u-section-1 .u-list-1 {
-    min-height: 160px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+  .u-section-1 .u-repeater-1 {
+    min-height: 539px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1680px;
+    min-height: 856px;
   }
 
   .u-section-1 .u-text-1 {
     margin-right: 170px;
   }
 
-  .u-section-1 .u-list-1 {
-    min-height: 100px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-1 .u-repeater-1 {
-    grid-auto-columns: calc(33.3333% - 13.3333px);
-    grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
+    grid-template-columns: calc(50% - 10px) calc(50% - 10px);
     grid-gap: 20px 20px;
+    min-height: 343px;
+    grid-auto-columns: calc(50% - 10px);
   }
 }
